@@ -28,3 +28,4 @@ objectTable.forEach(function (obj) {
     console.log(coucou(obj.old))
 })
 
+let meuh = 'Meuh';
