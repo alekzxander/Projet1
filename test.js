@@ -24,13 +24,6 @@ const objectTable = [
     }
 ];
 
-// while (counter < 5) {
-//     counter++;
-//     console.log(coucou('Tristan'), counter + ' fois !!')
-// }
-// for (let i = 0; i < table.length; i++) {
-//     console.log(coucou(table[i]), i + ' fois !!')
-// }
 objectTable.forEach(function (obj) {
     console.log(coucou(obj.old))
 })
