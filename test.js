@@ -27,3 +27,8 @@ const objectTable = [
 objectTable.forEach(function (obj) {
     console.log(coucou(obj.old))
 })
+
+
+const multiplicator = (number, multiple) => {
+    return number * multiple;
+};
